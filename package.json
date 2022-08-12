@@ -13,13 +13,13 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "David Zemon",
+    "email": "david@zemon.name",
+    "web": "https://david.zemon.name"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/DavidZemon/WhatIsSpotifyBackstage.git"
   },
   "engines": {
     "node": ">=10.0.0"
