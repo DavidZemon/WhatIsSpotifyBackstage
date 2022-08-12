@@ -16,48 +16,56 @@
 <body>
 <div class="reveal">
   <div class="slides">
-    <section data-markdown>
-      <textarea data-template>
-        # What is Spotify Backstage?
+    <section>
+      <section data-markdown>
+        <textarea data-template>
+          # What is Spotify Backstage?
 
-        A brief introduction to Spotify's Backstage framework
+          A brief introduction to Spotify's Backstage framework
+        </textarea>
+      </section>
 
-        ---
+      <section data-markdown>
+        <textarea data-template>
+          ## Backstage from a Bird's Eye
 
-        ## Backstage from a Bird's Eye
+          * Suite of NPM libraries and CLI tools
+            * No more an application than Angular or React
+          * CLI tool builds monorepo with Backstage libs as dependencies
+          * Monorepo has: backend, frontend, public libs, private libs
+          * Backend is ExpressJS HTTP server
+          * Frontend is Material UI single-page app
+          * Build system configuration is in place for easy addition of new libs
+        </textarea>
+      </section>
 
-        * Suite of NPM libraries and CLI tools
-          * No more an application than Angular or React
-        * CLI tool builds monorepo with Backstage libs as dependencies
-        * Monorepo has: backend, frontend, public libs, private libs
-        * Backend is ExpressJS HTTP server
-        * Frontend is Material UI single-page app
-        * Build system configuration is in place for easy addition of new libs
+      <section data-markdown>
+        <textarea data-template>
+          ## What's in this Backstage-based Monorepo?
 
-        ---
+          * At its core, a **(mostly) empty bike shed**, ready to be filled with whatever you can imagine
+          * **Entity Catalog:** catalog software, infrastructure resources, people, teams, etc
+          * **Documentation-as-code:** a place to read your collection of [mkdocs](https://www.mkdocs.org/)-generated
+            documentation
+          * **Software templater:** Scaffold new software projects, create and publish new VCS repos
+        </textarea>
+      </section>
 
-        ## What's in this Backstage-based Monorepo?
+      <section data-markdown>
+        <textarea data-template>
+          ## Why is that special?
 
-        * At its core, a **(mostly) empty bike shed**, ready to be filled with whatever you can imagine
-        * **Entity Catalog:** catalog software, infrastructure resources, people, teams, etc
-        * **Documentation-as-code:** a place to read your collection of [mkdocs](https://www.mkdocs.org/)-generated
-          documentation
-        * **Software templater:** Scaffold new software projects, create and publish new VCS repos
+          Backstage functionality provided out-of-the-box can be replicated with other products...<br />
+          but Backstage provides it in:
+          * easy-to-modify package
+          * hosted on your own servers
+          * maintained by your own developers
+          * expanded by your own team.
 
-        ---
-
-        ## Why is that special?
-
-        Backstage functionality provided out-of-the-box can be replicated with other products...<br />
-        but Backstage provides it in:
-        * easy-to-modify package
-        * hosted on your own servers
-        * maintained by your own developers
-        * expanded by your own team.
-
-        If you want the ability to control your own fate and not wait for a third-party to solve your problems, Backstage
-        may be for you.
-      </textarea>
+          If you want the ability to control your own fate and not wait for a third-party to solve your problems, Backstage
+          may be for you.
+        </textarea>
+      </section>
     </section>
   </div>
 </div>
