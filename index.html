@@ -76,7 +76,7 @@
       </section>
     </section>
 
-    <!-- How one client uses it-->
+    <!-- Core Features -->
     <section>
       <section data-markdown>
         <textarea data-template>
@@ -99,7 +99,30 @@
         </textarea>
       </section>
 
-      <section data-markdown="">
+      <section data-markdown>
+        <textarea data-template>
+          ## Entity Catalog Sample
+
+          ```yaml
+          apiVersion: backstage.io/v1alpha1
+          kind: Component
+          metadata:
+            name: backstage
+            description: The source for all your sources
+            annotations:
+              backstage.io/techdocs-ref: dir:.
+            tags:
+              - nodejs
+              - expressjs
+          spec:
+            type: library
+            owner: spotify-engineering
+            lifecycle: experimental
+          ```
+        </textarea>
+      </section>
+
+      <section data-markdown>
         <textarea data-template>
           ## Software Templater
 
@@ -114,7 +137,7 @@
         </textarea>
       </section>
 
-      <section data-markdown="">
+      <section data-markdown>
         <textarea data-template>
           ## TechDocs
 
@@ -125,33 +148,30 @@
         </textarea>
       </section>
 
-      <section data-markdown="">
+      <section data-markdown>
         <textarea data-template>
           ## Authentication
 
-          Coming soon...
+          * Sign-in via Auth0, Atlassian, GitHub, Okta, etc
+          * Protect pages with scopes
+          * Protect entities with group/role based rules
         </textarea>
       </section>
 
-      <section data-markdown="">
+      <section data-markdown>
         <textarea data-template>
           ## Kubernetes
 
-          Coming soon...
-        </textarea>
-      </section>
-
-      <section data-markdown="">
-        <textarea data-template>
-          ## Authenticatoin
-
-          Coming soon...
+          * It's a thing
+          * It displays cluster status
+          * Neither of us have used it
         </textarea>
       </section>
     </section>
 
+    <!-- Client A Experience -->
     <section>
-      <section data-markdown="">
+      <section data-markdown>
         <textarea data-template>
           # First-Hand Experience at Client A
         </textarea>
